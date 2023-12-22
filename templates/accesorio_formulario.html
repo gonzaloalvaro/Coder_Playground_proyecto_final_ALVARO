@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+{% load static %}
+{% block contenido %}
+
+<form action="/stock/crear_accesorio/" method="post">
+  
+    {% csrf_token %}
+
+    <p> tipo de accesorio: <input type = "text" name="tipo">    
+    <p> nombre del accesorio: <input type = "text" name="nombre"> 
+    <p> descripcion del accesorio: <input type = "text" name="descripcion">
+    <p> talle del accesorio: <input type = "text" name="talle">
+    <p> cantidad en stock: <input type = "number" name="cantidad en stock">
+    <input type = "submit" value = "Enviar">
+    </form>
+
+
+{% endblock%}

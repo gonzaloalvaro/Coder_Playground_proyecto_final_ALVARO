@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block contenido %}
+<br>
+
+<form action='/stock/busqueda_bd/' method="GET">
+    <p> Nombre del producto: <input type = "text" name="nombre">
+    <br>
+    <input type = "submit" value="Enviar">
+ </form>
+
+{% for ropa in lista %}
+
+    Nombre de producto: {{ropa.nombre}}, Cantidad en Stock: {{ropa.cantidad_en_stock}}
+    <br>
+
+
+
+{% endfor %}
+
+
+{% endblock %}
+
+</form>

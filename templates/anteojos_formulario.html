@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+{% load static %}
+{% block contenido %}
+
+<form action="/stock/crear_anteojos/" method="post">
+    
+    {% csrf_token %}
+    <p> nombre de los anteojos: <input type = "text" name="nombre">
+    <p> descripcion de los anteojos: <input type = "text" name="descripcion">
+    <p> color de los anteojos: <input type = "text" name="color">
+    <p> cantidad en stock: <input type = "number" name="cantidad en stock">
+    <input type = "submit" value = "Enviar">
+    </form>
+
+{% endblock %}

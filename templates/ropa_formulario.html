@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+{% load static %}
+{% block contenido %}
+
+<form action="/stock/crear_ropa/" method="post">
+   
+    {% csrf_token %}
+
+    <p> tipo de prenda: <input type = "text" name="prenda">  
+    <p> nombre de la prenda: <input type = "text" name="nombre"> 
+    <p> descripcion de la prenda: <input type = "text" name="descripcion">
+    <p> talle de la prenda: <input type = "text" name="talle">
+    <p> cantidad en stock: <input type = "number" name="cantidad en stock">
+    <input type = "submit" value = "Enviar">
+    </form>
+
+{% endblock%}
