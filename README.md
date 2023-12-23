@@ -8,3 +8,8 @@ Este es mi proyecto final del curso de python de Coderhouse. el mismo se trata d
 SOBRE MI
 
 Mi nombre es Gonzalo Alvaro soy Argentino y tengo 22 años. me queda medio año para recibirme como licenciado en administracion de empresas sin embargo siempre senti que la carrera no me llenaba del todo, que le faltaba algo mas. decidi incursionar en la programacion siendo este mi primer contacto con este gran mundo y para alegria mia descubri una nueva pasion, la verdad que disfruto mucho el estar aprendiendo tanto y espero poder seguir desarrollandome tanto en python como en otros idiomas.
+
+Por ultimo dejo el link del video mostrando como funciona la pagina
+
+https://www.loom.com/share/716d8be8b2d145d0baeea6667093eecc
+
